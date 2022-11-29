@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawya Nature</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+    
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <img src="images/logo.png" alt="" class="logo" width="150" height="30">
+
+    <nav class="navbar">
+        <a href="index.html">accueil</a>
+        <a href="#book">réservation</a>
+    </nav>
+
+</header>
+
+
+<section class="book" id="book" réservation>
+
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/revpc.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <Label for="fname">prénom:</Label>
+                <input type="text" placeholder="entrez votre prénom">
+            </div> <br>
+            <div class="inputBox">
+                <Label for="lname">nom:</Label>
+                <input type="text" placeholder="entrez votre nom">
+            </div><br>
+            <div class="inputBox">
+                <Label for="age">âge:</Label>
+                <input type="number" placeholder="entrez votre âge">
+            </div><br>
+            <div class="inputBox">
+                <Label for="ville">ville:</Label>
+                <select id="inputBox" name="city">
+                    <option value="">Sélectionnez une ville</option>
+                    <option value="Al Hoceïma">Al Hoceïma</option>
+                    <option value="Al-Hoceima">Al-Hoceima</option>
+                    <option value="Asilah">Asilah</option>
+                    <option value="Bni Bouayach">Bni Bouayach</option>
+                    <option value="Brikcha">Brikcha</option>
+                    <option value="Cap Negro II">Cap Negro II</option>
+                    <option value="Chefchaouen Province">Chefchaouen Province</option>
+                    <option value="Chefchaouene">Chefchaouene</option>
+                    <option value="Derdara">Derdara</option>
+                    <option value="Fahs-Anjra">Fahs-Anjra</option>
+                    <option value="Fnidek">Fnidek</option>
+                </select>
+            </div><br>
+            <div class="inputBox">
+                <Label for="pays">pays:</Label>
+                <select id="inputBox" name="country">
+                    <option value="">Sélectionnez une vpays</option>
+                    <option value="morocco">morocco</option>
+                    <option value="france">france</option>
+                    <option value="italy">italy</option>
+                    <option value="spain">spain</option>
+                </select>
+            </div><br>
+            <div class="inputBoxcheck">
+                <Label for="famille">Famille:</Label>
+                <input type="checkbox" name="nomchoice" value="1">
+                <Label for="amis">Amis:</Label>
+                <input type="checkbox" name="nomchoice" value="1">
+                <Label for="Groupe Entreprise">Groupe Entreprise:</Label>
+                <input type="checkbox" name="nomchoice" value="1">
+            </div><br>
+            
+            <div class="inputBox">
+                <Label for="cob">combien:</Label>
+                <input type="number" placeholder="nombre d'invités">
+            </div><br>
+            <div class="inputBox">
+                <Label for="stage">Ateliers ou stages souhaitées:</Label>
+                <select id="inputBox" name="city">
+                    <option value="">liste des offres</option>
+                    <option value="walkig">walkig</option>
+                    <option value="drwing">drwing</option>
+                    <option value="dance">dance</option>
+                    <option value="yoga">yoga</option>
+                    <option value="music">music</option>
+                    <option value="clumbing">clumbing</option>
+                    <option value="skate">skate</option>
+                </select>
+            </div><br>
+            <div class="inputBoxdate">
+                <Label for="date">Dates:</Label> <Label for="from">du</Label>
+                <input type="date"> 
+                <Label for="from">Au</Label>
+                <input type="date">
+            </div><br>
+
+            <div class="inputBoxcheck">
+                <Label for="repas">Repas sur place déjeuner ou diner:</Label>
+                <Label for="oui">Oui</Label>
+                <input type="checkbox" name="nomchoice" value="1">
+                <Label for="non">Non</Label>
+                <input type="checkbox" name="nomchoice" value="1">
+            </div><br>
+            <div class="inputBox">
+                <Label for="wish">Souhaits particuliers:</Label><br>
+                <textarea rows = "3" cols = "40" name = "description">
+                   
+                 </textarea>
+            </div>
+            <input type="submit" class="btn" value="Reserve maintenant">
+        </form>
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>propos de nous</h3>
+            <p>Boujmil est un village perché dans une zone de moyenne montagne de
+                arrière pays typique des montagnes Jbela.
+                A flan de coteau et au pied une dorsale calcaire, la zone est constituée
+                de 4 à 5 vallées ancestrales et totalement préservées.
+                Ces espaces magnifiques, entretenues par les paysans locaux avec une
+                vue plongeante sur Tamuda Bay, le Barrage Asmir et les montagnes du
+                RIF sont un paradis pour les randonneurs et/ou les curieux de la nature.</p>
+        </div>
+      
+        <div class="box">
+        <h3>Accès au site de Boujmil </h3>
+        <a href="#">Depuis Tanger : 2h20</a>
+        <a href="#">Depuis Tétouan : 50 mn</a>
+        <a href="#">Depuis Cabo Négro : 45 mn</a>
+        <a href="#">Depuis Marina Smir : 37 mn</a>
+        <a href="#"> Depuis La Restinga : 30 mn : 12 km dont 6 de piste</a>
+        </div>
+
+        <div class="box">
+            <h3>Liens rapides</h3>
+            <a href="index.html">accueil</a>
+        <a href="#packages">nos découvertes</a>
+        <a href="#gallery">galerie</a>
+        <a href="#services">services</a>
+        <!--a href="#contact"> nos contacts</a-->
+        <a href="#book">réservation</a>
+        </div>
+
+
+        <div class="box">
+            <h3>Suivez-nous</h3>
+            <a href="Dawya natures">facebook</a>
+            <a href="Dawya_natures">instagram</a>
+            <a href="#">Dawya- natures-experiences.ma</a>
+            <a href="ouedkoumdawya@gmail.com">Contact Oued Koum. Jean Christophe Michaut. 06 17 86 24 73
+                ouedkoumdawya@gmail.com</a>
+            
+        </div>
+
+    </div>
+
+    <h1 class="credit"> crée par <span> V-M-S-A</span> | tous les droits sont réservés! </h1>
+
+</section>
+
+
+
+</body>
+</html>
